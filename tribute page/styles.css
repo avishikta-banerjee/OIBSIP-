@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+header{
+    text-align: center;
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+header h1, h3{
+    margin: 0;
+    padding: 2em 0 2em 0;
+}
+header hr{
+    width: 50%;
+    border: #ff5f5f 1px solid;
+}
+h3{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 2em;
+}
+.summary{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #949494;
+}
+#main_image{
+    height: 37em;
+    width: 27em;
+    border-radius: 5px;
+}
+.summary_div span{
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding: 5px ;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.summary_div p{
+    text-align: justify;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 5em 2em 0 2em;
+}
+.early_life{
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.early_life p{
+    text-align: justify;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 0 2em 0 2em;
+}
+.research{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #949494;
+}
+.research p{
+    text-align: justify;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 0 2em 0 2em;
+}
+.research_image{
+    height: 35em;
+    width: 35em;
+    border-radius: 5px;
+}
+.honours{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #ffffff;
+}
+.honours p{
+    text-align: justify;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 0 2em 0 2em;
+}
+.honours img{
+    height: 40em;
+    width: 35em;
+    border-radius: 5px;
+}
